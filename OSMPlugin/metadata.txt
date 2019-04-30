@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=OSM nas bases de produção
+qgisMinimumVersion=2.14
+description=Extrai interseção e diferenças geométricas e entre eixos de mapa da CETE e OpenStreetMap
+version=1.0
+author=IBGE
+email=andre.censitario@ibge.gov.br
+
+about=Compara a base da CETE com a OpenStreetMap, calcula e extrai a interseção entre os eixos de logradouro, diferenças geométricas e um comparativo com nomes exclusivos de cada base
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Database
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

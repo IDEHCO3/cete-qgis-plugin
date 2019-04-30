@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/OSMPlugin" >
+        <file>icon.png</file>
+        <file>intersection.png</file>
+    </qresource>
+</RCC>

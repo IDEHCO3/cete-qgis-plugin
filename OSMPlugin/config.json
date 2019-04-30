@@ -1,0 +1,90 @@
+{
+  "osm_info": {
+    "name_field": "name", 
+    "table_name": "roads", 
+    "id_field": "gid", 
+    "geom_field": "geom"
+  }, 
+  "connection_info": {
+    "host": "172.30.137.117", 
+    "password": "cete", 
+    "port": 5401, 
+    "dbname": "gis", 
+    "user": "cete"
+  }, 
+  "cete_info": {
+    "name_field": "nm_txtmemo", 
+    "table_name": "_eixos_cete_2018", 
+    "id_field": "gid", 
+    "geom_field": "geom"
+  }, 
+  "municipios_info": {
+    "geocodigo_field": "cd_geocodigo", 
+    "name_field": "nm_municipio", 
+    "table_name": "_municipios_2018", 
+    "geom_field": "geom"
+  }, 
+  "table_data": [
+    {
+      "municipio_name": "NITER\u00d3I", 
+      "geocodigo": "3303302", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "BELO HORIZONTE", 
+      "geocodigo": "3106200", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "S\u00c3O PAULO", 
+      "geocodigo": "3550308", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "VOLTA REDONDA", 
+      "geocodigo": "3306305", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "VALEN\u00c7A", 
+      "geocodigo": "3306107", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "CACHOEIRAS DE MACACU", 
+      "geocodigo": "3300803", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "COMENDADOR LEVY GASPARIAN", 
+      "geocodigo": "3300951", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "CORDEIRO", 
+      "geocodigo": "3301504", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "DUQUE DE CAXIAS", 
+      "geocodigo": "3301702", 
+      "checked": false
+    }, 
+    {
+      "municipio_name": "ENGENHEIRO PAULO DE FRONTIN", 
+      "geocodigo": "3301801", 
+      "checked": true
+    }, 
+    {
+      "municipio_name": "NOVA FRIBURGO", 
+      "geocodigo": "3303401", 
+      "checked": false
+    }
+  ], 
+  "config_info": {
+    "save_in_folder": false, 
+    "buffer_size": 20, 
+    "output_folder": "", 
+    "only_one_layer": false
+  }
+}

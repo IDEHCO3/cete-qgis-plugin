@@ -1,0 +1,34 @@
+{
+  "osm_info": {
+    "name_field": "", 
+    "table_name": "", 
+    "id_field": "", 
+    "geom_field": ""
+  }, 
+  "connection_info": {
+    "host": "", 
+    "password": "", 
+    "user": "", 
+    "dbname": "", 
+    "port": 5432
+  }, 
+  "cete_info": {
+    "name_field": "", 
+    "table_name": "", 
+    "id_field": "", 
+    "geom_field": ""
+  }, 
+  "municipios_info": {
+    "geocodigo_field": "", 
+    "name_field": "", 
+    "table_name": "", 
+    "geom_field": ""
+  }, 
+  "table_data": [], 
+  "config_info": {
+    "save_in_folder": false, 
+    "buffer_size": 15, 
+    "output_folder": "", 
+    "only_one_layer": false
+  }
+}
